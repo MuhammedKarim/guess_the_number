@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <style>
+        .content {
+            background: #36393e !important;
+        }
+        header h1 {
+            text-align: center;
+            color: #ffffff !important;
+            font-weight: bold;
+            font-size: 3rem;
+        }
+        main .container {
+            width: 30vw;
+            height: 10vh;
+            margin: auto;
+        }
+        main .container:last-child {
+            width: 25vw;
+            height: 8vh;
+        }
+        main .invite-container, main .support-container {
+            border: 3px solid rgb(114, 137, 218);
+            display : flex;
+            align-items : center;
+            justify-content: center;
+            width: 100%;
+            height: 100%;
+        }
+        main .invite-container:hover, main .support-container:hover {
+            background: rgb(114, 137, 218);
+        }
+        main .invite-link, main .support-link {
+            text-decoration: none;
+            width: 30vw;
+            height: 10vh;
+            color: rgb(114, 137, 218);
+            font-weight: bold;
+            font-size: 1.5rem;
+            text-transform: uppercase;
+            margin: auto;
+        }
+        main .invite-link:hover, main .support-link:hover {
+            color: #36393e;
+        }
+        main .text p, main .text li {
+            color: rgb(114, 137, 218);
+            text-align: center;
+            margin: 2rem auto;
+            font-size: 1.3rem;
+            width: 60vw;
+        }
+        main .text li {
+            width: 20vw;
+        }
+        @media screen and (max-width: 800px) {
+            .content {
+                width: 80vw !important;
+            	font-size: 0.7rem !important;
+            }
+            main .container {
+                width: 50vw !important;
+                height: 10vh !important;
+                margin: auto !important;
+            }
+      		main .invite-container, main .support-container {
+                display : flex !important;
+                align-items : center !important;
+                justify-content: center !important;      
+      		}
+      		main .invite-link, main .support-link {
+      			font-size: 1rem !important;
+      		}
+        }
+    </style>
+</head>
+<body style="background:#36393e">
+    <header>
+        <h1>Guess The Number</h1>
+    </header>
+    <main>
+        <div class="container">
+            <a class="invite-link" href="https://discordapp.com/oauth2/authorize?client_id=539261949205020673&scope=bot&permissions=268512336">
+                <div class="invite-container">
+                    Add to your server
+                </div>
+            </a>
+        </div>
+        <div class="text">
+            <p>
+                Enhance your servers with Guess The Number bot that allows you to set up a round of number guessing with any bounds that you set 🔢
+            </p>
+            <p>
+                It's as simple as:
+            </p>
+            <ul>
+                <li>Setup a Guessing Channel</li>
+                <li>Start a Guessing Round!</li>
+            </ul>
+            <p>ENJOY!</p>
+        </div>
+        <div class="container">
+            <a class="support-link" href="https://discord.gg/ACQHybh">
+                <div class="support-container">
+                    Support Server
+                </div>
+            </a>
+        </div>
+        <a href="https://discordbots.org/bot/539261949205020673" >
+          <img src="https://discordbots.org/api/widget/539261949205020673.svg" alt="Guess The Number" />
+        </a>
+    </main>
+</body>
+</html>
